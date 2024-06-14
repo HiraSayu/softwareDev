@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //引数（ジャンルtype）を受け取って曲の配列を返す
-//
+
 public class Music {
 	
 	//曲の配列
