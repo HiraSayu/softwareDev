@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+	background-color:  #ffaaaa;
+	
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+
+.genrelist {
+    list-style-type: none; /* デフォルトのリストスタイルを削除 */
+    padding: 0; /* パディングを削除 */
+    margin: 0; /* マージンを削除 */
+}
+
+.genrelist a {
+	width:300px;
+    display: block; /* 各a要素をブロックレベル要素に変更 */
+    padding: 10px; /* 適切なパディングを追加 */
+    text-decoration: none; /* 下線を削除 */
+    text-align: center;
+    color: black; /* テキストの色を黒に設定 */
+}
+
+.genrelist a:hover {
+    background-color: #f0f0f0; /* ホバー時に背景色を変更 */
+}
+
+
+.buttonContainer{
+	display: flex;
+  flex-direction: row;
+  padding: 10px;
+  mergin: 10px;
+	
+}
+
+#random{
+	width:200px;
+	padding: 10px;
+	color: #222222;
+	text-decoration: none;
+	background-color: aqua;
+	
+	border-radius: 100vh;
+	
+}
+
