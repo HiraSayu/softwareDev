@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body{
-	background-color:  #ffaaaa;
-	
+	background-color:  #ffa658;
+	color:#09195c;
 	display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,10 @@ body{
     text-align: center;
 }
 
-h3{
+h1{
+  background: linear-gradient(transparent 60%, yellow 30%);
+      display: inline-block;
+  
 
 }
 
@@ -21,8 +24,8 @@ h3{
     padding: 10px; /* 適切なパディングを追加 */
     text-decoration: none; /* 下線を削除 */
     text-align: center;
-    color: black; /* テキストの色を黒に設定 */
-    background-color: #ffaaaa;
+    color: #09195c; /* テキストの色を黒に設定 */
+    background-color: #ffa658;
     font-size: 20px;
 
 }
