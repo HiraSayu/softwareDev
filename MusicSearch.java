@@ -36,7 +36,7 @@ public class MusicSearch extends HttpServlet {
         if (musicList != null && musicList.length > 0) {
             Random rand = new Random();
             String randomMusic = musicList[rand.nextInt(musicList.length)];
-            message = "Random Music: " + randomMusic;
+            message =randomMusic;
         }
 
         request.setAttribute("message", message);
