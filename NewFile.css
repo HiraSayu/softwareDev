@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@charset "UTF-8";
 
 body{
 	background-color:  #ffaaaa;
@@ -11,25 +10,32 @@ body{
     text-align: center;
 }
 
+h3{
+
+}
+
+.genrelist button{
+    width:300px;
+    display: block; /* 各a要素をブロックレベル要素に変更 */
+    border: none;
+    padding: 10px; /* 適切なパディングを追加 */
+    text-decoration: none; /* 下線を削除 */
+    text-align: center;
+    color: black; /* テキストの色を黒に設定 */
+    background-color: #ffaaaa;
+    font-size: 20px;
+
+}
+
+.genrelist button:hover {
+  background-color: #f0f0f0; /* ホバー時に背景色を変更 */
+}
+
 .genrelist {
     list-style-type: none; /* デフォルトのリストスタイルを削除 */
     padding: 0; /* パディングを削除 */
     margin: 0; /* マージンを削除 */
 }
-
-.genrelist a {
-	width:300px;
-    display: block; /* 各a要素をブロックレベル要素に変更 */
-    padding: 10px; /* 適切なパディングを追加 */
-    text-decoration: none; /* 下線を削除 */
-    text-align: center;
-    color: black; /* テキストの色を黒に設定 */
-}
-
-.genrelist a:hover {
-    background-color: #f0f0f0; /* ホバー時に背景色を変更 */
-}
-
 
 .buttonContainer{
 	display: flex;
@@ -49,3 +55,4 @@ body{
 	border-radius: 100vh;
 	
 }
+
